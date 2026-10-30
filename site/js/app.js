@@ -122,7 +122,7 @@
     },
   };
 
-  let lang = "en";
+  let lang = "vi";
 
   function t(key) {
     return (COPY[lang] && COPY[lang][key]) || COPY.en[key] || key;
@@ -485,7 +485,7 @@
   const saved = (() => {
     try { return localStorage.getItem("hue-lang"); } catch (err) { return null; }
   })();
-  applyLang(saved === "vi" ? "vi" : "en");
+  applyLang(saved === "en" ? "en" : "vi");
 
   if (!manifest.length) return;
 
