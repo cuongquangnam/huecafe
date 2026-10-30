@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HÚE — Book & Cafe, by Xéooo, Imperial Sky Lounge</title>
+  <meta name="description" content="HÚE in Huế: a book café on Lương Thế Vinh, HÚE by Xéooo in hẻm Bến Nghé, and Imperial Sky Lounge & Cafe above the Perfume River.">
+  <meta name="theme-color" content="#14110e">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#houses" data-i18n="skip">Skip to the houses</a>
+  <header class="nav" id="nav">
+    <a class="brand" href="#top"><img src="media/logo.png" alt="HÚE" width="640" height="640"></a>
+    <div class="nav-end">
+      <nav class="nav-links" id="nav-links" data-i18n-aria="navLabel" aria-label="Houses">
+        <a href="#book">Book &amp; Cafe</a>
+        <a href="#xeo">by Xéo</a>
+        <a href="#imperial" data-i18n="navImperial">Imperial</a>
+        <a href="#visit" data-i18n="navVisit">Visit</a>
+      </nav>
+      <div class="lang" role="group" data-i18n-aria="langLabel" aria-label="Language">
+        <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-set-lang="vi" aria-pressed="false">VI</button>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-i18n="menu">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-media" id="hero-media" data-list="hero"></div>
+      <p class="hero-watermark" aria-hidden="true">HÚE</p>
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">The old capital</p>
+        <h1 data-i18n="heroTitle" data-i18n-html>Three spaces<br>for one city.</h1>
+        <p class="lede" data-i18n="heroLede">A book café on a quiet street, a kitchen down an alley, and a sky lounge above the Perfume River.</p>
+        <div class="hero-tools">
+          <p class="hero-index" id="hero-index"></p>
+          <div class="hero-pager">
+            <button class="hero-step" id="hero-prev" type="button" data-i18n-aria="prevPhoto" aria-label="Previous photograph">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8 10 12.5"/></svg>
+            </button>
+            <div class="hero-dots" id="hero-dots" role="tablist" data-i18n-aria="photos" aria-label="Photographs"></div>
+            <button class="hero-step" id="hero-next" type="button" data-i18n-aria="nextPhoto" aria-label="Next photograph">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5"/></svg>
+            </button>
+          </div>
+          <button class="hero-view" id="hero-view" type="button" data-i18n="viewPhoto">View photograph</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="houses" id="houses">
+      <div class="wrap">
+        <p class="kicker" data-i18n="houses">The houses</p>
+        <div class="index-list">
+          <a class="index-row" href="#book">
+            <span class="num">01</span>
+            <span class="index-copy">
+              <strong>Book &amp; Cafe</strong>
+              <em data-i18n="houseBook">Shelves, ochre walls, a morning that lasts</em>
+            </span>
+            <span class="index-photo" data-pick="HAI05115.jpg" data-size="thumb"></span>
+          </a>
+          <a class="index-row" href="#xeo">
+            <span class="num">02</span>
+            <span class="index-copy">
+              <strong>by Xéooo</strong>
+              <em data-i18n="houseXeo">Pizza, stone, and the alley after dusk</em>
+            </span>
+            <span class="index-photo" data-pick="HAI07279.jpg" data-size="thumb"></span>
+          </a>
+          <a class="index-row" href="#imperial">
+            <span class="num">03</span>
+            <span class="index-copy">
+              <strong data-i18n="imperialShort">Imperial Sky</strong>
+              <em data-i18n="houseImperial">Perfume River, from the sixteenth floor</em>
+            </span>
+            <span class="index-photo" data-pick="HAI04477.jpg" data-size="thumb"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-book" id="book">
+      <div class="band">
+        <div class="wrap chapter-head">
+          <p class="num">01</p>
+          <div>
+            <p class="eyebrow" data-i18n="bookEyebrow">The quiet room</p>
+            <h2>HÚE Book &amp; Cafe</h2>
+            <p class="vi" data-i18n="bookSub">A quiet corner for books and coffee.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap chapter-inner">
+        <div class="mosaic mosaic-book" data-store="book" data-names="HAI05115.jpg|HAI05432.jpg|HAI06830 2.JPG|DSCF9044 2.JPG|HAI05139.jpg|HAI05015.jpg">
+          <button class="frame f1" type="button" data-size="full" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f2" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f3" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f4" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f5" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f6" type="button" data-size="full" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+        </div>
+        <div class="chapter-body">
+          <div class="prose">
+            <p data-i18n="bookP1">On Lương Thế Vinh the walls are ochre and the banquettes are green. Shelves hold the afternoon. Coffee arrives with lotus seeds, and a book is already open on someone’s lap.</p>
+            <p data-i18n="bookP2">Pastry sits on blue-and-white porcelain. The street stays at a polite distance. It is the room for a slow morning, a chapter, or nothing in particular.</p>
+          </div>
+          <div>
+            <dl class="facts">
+              <div><dt data-i18n="address">Address</dt><dd>12 Lương Thế Vinh, Phú Hội, Huế</dd></div>
+              <div><dt data-i18n="hours">Hours</dt><dd data-i18n="hoursBook">Daily · 06:30 – 21:00</dd></div>
+              <div><dt data-i18n="phone">Phone</dt><dd><a href="tel:+84775678937">0775 678 937</a></dd></div>
+            </dl>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84775678937" data-i18n="call">Call the house</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=12+Lương+Thế+Vinh+Phú+Hội+Huế" target="_blank" rel="noopener" data-i18n="directions">Directions</a>
+            </div>
+          </div>
+        </div>
+        <div class="strip-block">
+          <div class="strip-label"><span data-i18n="stripShelves">From the shelves</span><span data-i18n="scroll">Scroll</span></div>
+          <div class="strip" data-store="book" data-count="18"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-xeo" id="xeo">
+      <div class="wrap chapter-head chapter-head-plain">
+        <p class="num">02</p>
+        <div>
+          <p class="eyebrow" data-i18n="xeoEyebrow">The alley</p>
+          <h2>HÚE by Xéooo</h2>
+          <p class="vi" data-i18n="xeoSub">The taste of Huế, down the alley.</p>
+        </div>
+      </div>
+      <div class="wrap chapter-inner">
+        <div class="mosaic mosaic-xeo" data-store="xeo" data-names="HAI07279.jpg|HAI07317.jpg|HAI03898.jpg|HAI04619.jpg|HAI07386.jpg|HAI03912.jpg">
+          <button class="frame f1" type="button" data-size="full" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f2" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f3" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f4" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f5" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f6" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+        </div>
+        <div class="chapter-body">
+          <div class="prose">
+            <p data-i18n="xeoP1">Down hẻm 10 Bến Nghé, the windows are wood and the walls are stone. Pizza comes off the board. Tables fill with flowers, cake, and talk that runs past the dinner hour.</p>
+            <p data-i18n="xeoP2">Coffee at a long table. Outside, the alley has not gone quiet.</p>
+          </div>
+          <div>
+            <dl class="facts">
+              <div><dt data-i18n="address">Address</dt><dd>Hẻm 10 Bến Nghé, Thuận Hóa, Huế</dd></div>
+              <div><dt data-i18n="hours">Hours</dt><dd data-i18n="hoursXeo">Daily · 09:00 – 22:30</dd></div>
+              <div><dt data-i18n="phone">Phone</dt><dd><a href="tel:+84902929744">090 292 9744</a></dd></div>
+            </dl>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84902929744" data-i18n="call">Call the house</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Hẻm+10+Bến+Nghé+Thuận+Hóa+Huế" target="_blank" rel="noopener" data-i18n="directions">Directions</a>
+            </div>
+          </div>
+        </div>
+        <div class="strip-block">
+          <div class="strip-label"><span data-i18n="stripAlley">From the alley</span><span data-i18n="scroll">Scroll</span></div>
+          <div class="strip" data-store="xeo" data-count="18"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-imperial" id="imperial">
+      <div class="wrap chapter-head chapter-head-plain">
+        <p class="num">03</p>
+        <div>
+          <p class="eyebrow" data-i18n="imperialEyebrow">The sky</p>
+          <h2>HÚE Imperial<br>Sky Lounge &amp; Cafe</h2>
+          <p class="vi" data-i18n="imperialSub">The Perfume River, from above.</p>
+        </div>
+      </div>
+      <div class="wrap chapter-inner">
+        <div class="mosaic mosaic-imperial" data-store="imperial" data-names="HAI04477.jpg|13HPNY.jpg|HAI07063.jpg|HAI08033.JPG|HAI07075.jpg|HAI04396.jpg">
+          <button class="frame f1" type="button" data-size="full" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f2" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f3" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f4" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f5" type="button" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+          <button class="frame f6" type="button" data-size="full" data-i18n-aria="openPhoto" aria-label="Open photograph"></button>
+        </div>
+        <div class="chapter-body">
+          <div class="prose">
+            <p data-i18n="imperialP1">On the 16th floor of TTC Imperial Hotel, Huế arranges itself: the bridges, Cồn Hến, and the Perfume River turning gold. Salt coffee before dark. Cocktails once the city lights come on.</p>
+            <p data-i18n="imperialP2">Koi lanterns hang over the bar. The terrace is for dresses, dates, and the long look down the old capital.</p>
+          </div>
+          <div>
+            <dl class="facts">
+              <div><dt data-i18n="address">Address</dt><dd>Tầng 16, TTC Imperial Hotel<br>08 Hùng Vương, Huế</dd></div>
+              <div><dt data-i18n="hours">Hours</dt><dd data-i18n="hoursImperial">Daily · 07:00 – 24:00</dd></div>
+              <div><dt data-i18n="phone">Phone</dt><dd><a href="tel:+84946962415">0946 962 415</a></dd></div>
+            </dl>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84946962415" data-i18n="call">Call the house</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=TTC+Imperial+Hotel+8+Hùng+Vương+Huế" target="_blank" rel="noopener" data-i18n="directions">Directions</a>
+            </div>
+          </div>
+        </div>
+        <div class="strip-block">
+          <div class="strip-label"><span data-i18n="stripTerrace">From the terrace</span><span data-i18n="scroll">Scroll</span></div>
+          <div class="strip" data-store="imperial" data-count="18"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="wrap">
+        <p class="kicker" data-i18n="navVisit">Visit</p>
+        <h2 data-i18n="visitTitle">Three addresses in Huế.</h2>
+        <p class="visit-note" data-i18n="visitNote">Hours follow what each house posts, and they shift on holidays. A call is the sure way to know tonight.</p>
+        <div class="visit-grid">
+          <article class="visit-card">
+            <div class="visit-photo" data-pick="HAI05115.jpg" data-size="thumb" data-static="true"></div>
+            <p class="eyebrow">01</p>
+            <h3>HÚE Book &amp; Cafe</h3>
+            <p>12 Lương Thế Vinh, Phú Hội, Huế</p>
+            <p data-i18n="hoursBook">Daily · 06:30 – 21:00</p>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84775678937">0775 678 937</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=12+Lương+Thế+Vinh+Phú+Hội+Huế" target="_blank" rel="noopener" data-i18n="map">Map</a>
+            </div>
+          </article>
+          <article class="visit-card">
+            <div class="visit-photo" data-pick="HAI03898.jpg" data-size="thumb" data-static="true"></div>
+            <p class="eyebrow">02</p>
+            <h3>HÚE by Xéooo</h3>
+            <p>Hẻm 10 Bến Nghé, Thuận Hóa, Huế</p>
+            <p data-i18n="hoursXeo">Daily · 09:00 – 22:30</p>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84902929744">090 292 9744</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Hẻm+10+Bến+Nghé+Thuận+Hóa+Huế" target="_blank" rel="noopener" data-i18n="map">Map</a>
+            </div>
+          </article>
+          <article class="visit-card">
+            <div class="visit-photo" data-pick="13HPNY.jpg" data-size="thumb" data-static="true"></div>
+            <p class="eyebrow">03</p>
+            <h3>Imperial Sky Lounge &amp; Cafe</h3>
+            <p>Tầng 16, TTC Imperial Hotel, 08 Hùng Vương, Huế</p>
+            <p data-i18n="hoursImperial">Daily · 07:00 – 24:00</p>
+            <div class="actions">
+              <a class="btn btn-fill" href="tel:+84946962415">0946 962 415</a>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=TTC+Imperial+Hotel+8+Hùng+Vương+Huế" target="_blank" rel="noopener" data-i18n="map">Map</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <a class="brand" href="#top"><img src="media/logo.png" alt="HÚE" width="640" height="640"></a>
+      <p>Book &amp; Cafe · by Xéooo · Imperial Sky Lounge &amp; Cafe</p>
+      <a href="#top" data-i18n="backTop">Back to the top</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" type="button" data-i18n="close">Close</button>
+    <button class="lb-nav lb-prev" type="button" data-i18n="prev" data-i18n-aria="prevPhoto" aria-label="Previous photograph">Prev</button>
+    <figure class="lb-figure">
+      <img id="lb-img" alt="">
+      <figcaption>
+        <span id="lb-caption"></span>
+        <span id="lb-count"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-nav lb-next" type="button" data-i18n="next" data-i18n-aria="nextPhoto" aria-label="Next photograph">Next</button>
+  </div>
+
+  <script src="manifest.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
